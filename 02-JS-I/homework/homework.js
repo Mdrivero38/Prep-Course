@@ -118,11 +118,8 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 === 1 ){
-    return true;
-  } else {
+  if (num % 2 === 1 ) return true;
     return false;
-  }
 }
 
 function elevarAlCuadrado(num) {
@@ -130,12 +127,14 @@ function elevarAlCuadrado(num) {
   // ojo: No es raiz cuadrada!
   // Tu código:
   return Math.pow(num, 2);
+  // return num*num;
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
  return num * num * num; 
+ // return Math.pow(num, 3);
 }
 
 function elevar(num, exponent) {
